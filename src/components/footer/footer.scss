@@ -1,0 +1,47 @@
+.footer-block1 {
+  background: radial-gradient(
+    134.18% 22.26% at 43.26% 111.07%,
+    #3d568a 0%,
+    #0e2149 100%
+  );
+}
+.footer_a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block1-item1 {
+  h2 {
+    color: #fff;
+    font-family: "Abhaya Libre", sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 63px;
+  }
+  p {
+    width: 268px;
+    height: 89px;
+    flex-shrink: 0;
+    color: #e6e5e5;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 130%;
+    margin-top: 28px;
+    margin-bottom: 70px;
+  }
+}
+.block1-info {
+    display: flex;
+    gap: 10px;
+}
+.footer-input {
+    input {
+        display: flex;
+        width: 210px;
+        height: 40px;
+        padding-left: 6px;
+    }
+}
