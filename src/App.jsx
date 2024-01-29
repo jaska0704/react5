@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { MainLayout } from './layout/mainLayaut';
+import { Hero } from './components/hero';
 import "./main.scss";
 
 
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <MainLayout>
+      <Hero/>
      <div>
       <h1>hello</h1>
      </div>
