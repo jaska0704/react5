@@ -1,60 +1,51 @@
-import img1 from "../../public/Group76.png";
-import img2 from "../../public/Group77.png";
-import img3 from "../../public/Group78.png";
-import img4 from "../../public/Group79.png";
-import img5 from "../../public/Group80.png";
-import img6 from "../../public/Group81.png";
-import img7 from "../../public/Group.png";
-import img8 from "../../public/Group76.png";
 
-
-const dataProduct = [
+export const dataProduct = [
   {
     id: 1,
     title: "Колбасные и мясные изделия",
-    img: img1,
+    img: "./Group76.png",
     text: "Цена от 150 ₽ 56 товаров",
   },
   {
     id: 2,
-    title: "Колбасные и мясные изделия",
-    img: img2,
-    text: "Цена от 150 ₽ 56 товаров",
+    title: "Молочные продукты",
+    img: "./Group77.png",
+    text: "Сыры, Десерты, Йогурты, Кисломолочная продукция, Молоко, Сметана, Творог, Творожная масса",
   },
   {
     id: 3,
-    title: "Колбасные и мясные изделия",
-    img: img3,
-    text: "Цена от 150 ₽ 56 товаров",
+    title: "Морепродукты",
+    img: "./Group79.png",
+    text: "Рыба, Икра, Креветки",
   },
   {
     id: 4,
-    title: "Колбасные и мясные изделия",
-    img: img4,
-    text: "Цена от 150 ₽ 56 товаров",
+    title: "Пиво",
+    img: "./Group80.png",
+    text: "Крафтовое пиво",
   },
   {
     id: 5,
-    title: "Колбасные и мясные изделия",
-    img: img5,
-    text: "Цена от 150 ₽ 56 товаров",
+    title: "Замороженные продукты",
+    img: "./Group81.png",
+    text: "Замороженные овощи, Замороженные фркуты",
   },
   {
     id: 6,
-    title: "Колбасные и мясные изделия",
-    img: img6,
-    text: "Цена от 150 ₽ 56 товаров",
+    title: "Мёд",
+    img: "./Group82.png",
+    text: "Мед горный 0,25 кг, Мед с облепихой 0,25 кг, Мед с черникой 0,25 кг, Мед с разнотравья 0,25 кг, Мед цветочный 0,25 кг",
   },
   {
     id: 7,
-    title: "Колбасные и мясные изделия",
-    img: img7,
-    text: "Цена от 150 ₽ 56 товаров",
+    title: "Свежие овощи",
+    img: "./Group83.png",
+    text: "Картофель, Огурцы, Помидоры",
   },
   {
     id: 8,
-    title: "Колбасные и мясные изделия",
-    img: img8,
-    text: "Цена от 150 ₽ 56 товаров",
+    title: "Свежие фрукты",
+    img: "./Group84.png",
+    text: "Сезонные яблоки",
   },
 ];
