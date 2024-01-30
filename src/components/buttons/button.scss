@@ -35,3 +35,40 @@
     background: var(--0-e-2149, #dadce0);
   }
 }
+.button-card1 {
+  width: 124px;
+  height: 46px;
+  flex-shrink: 0;
+  background: var(--0-e-2149, #0e2149);
+  color: var(--White, #fff);
+  font-family: "Times New Roman";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.button-card2 {
+  width: 124px;
+  height: 46px;
+  flex-shrink: 0;
+  background: var(--cfb-08-b, #d5af86);
+  color: var(--White, #faf9f9);
+  font-family: "Times New Roman";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
